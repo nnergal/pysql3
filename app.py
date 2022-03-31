@@ -21,4 +21,5 @@ def index():
 @app.route('/hello')
 # ‘/’ URL is bound with hello_world() function.
 def hello_world():
+    # return render_template('base.html', data="Hello World")
     return 'Hello World'
